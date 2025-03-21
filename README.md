@@ -1,5 +1,9 @@
 # lab4
 
+This is the  initial image of flutter app
+![home](./assets/image1.png)
+![home](./assets/image2.png)
+
 This is the flutter project of making a pokemon card app.  In this project a flutter application
 fetches Pokemon card data from an API and displays it in a scrollable list.
 So, Here in this i have add https/ dependendices in a pubspec.yaml section.
@@ -13,7 +17,26 @@ Features
 4. Shows detailed Pokémon images on a new screen when a card is clicked  
 5. Uses ListView.builder for efficient rendering
 
-Git Hub link:
+
+Technologies Used
+- Flutter: Framework for building cross-platform mobile applications.
+- Dart: Programming language used to develop the application.
+- http: Library for handling API requests.
+- Material Design: Provides a modern UI layout.
+ 
+Explantion of code
+main.dart
+- PokemonApp Class: Entry point of the application. It sets up the MaterialApp.
+- PokemonListScreen StatefulWidget: Handles fetching and displaying Pokémon cards.
+- Fetching Data: Uses the http package to retrieve data from the Pokémon TCG API.
+- Search Functionality: Filters the list of Pokémon cards based on user input.
+
+  Navigation:
+- ListTitle displays Pokémon names and images.
+- Clicking on a Pokémon navigates to DetailScreen to show a larger image.
+- DetailScreen: Displays a full-size image of the selected Pokémon card.
+
+
 
 ## Getting Started
 
